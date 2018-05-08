@@ -6,7 +6,7 @@
 using namespace std;
 //candado de ambito global
 //para que todos los hilos puedan verlos
-mjutex candado;
+mutex candado;
 
 void thread1(){
 	candado.lock();
